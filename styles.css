@@ -1,0 +1,130 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar {
+    padding: 20px;
+    background: #111;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff6bcb;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #6a00f4, #ff6bcb);
+    text-align: center;
+}
+
+.title {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 0 0 10px #ff6bcb;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 0 5px #6a00f4;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #ff6bcb;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ff6bcb;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #6a00f4;
+    box-shadow: 0 0 20px #6a00f4;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+}
+
+.about, .projects, .skills, .contact {
+    background-color: #111;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff6bcb;
+    text-shadow: 0 0 10px #6a00f4;
+}
+
+/* Projects */
+.project-card {
+    background: #1a1a1a;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #6a00f4;
+}
+
+.project-card h3 {
+    color: #ff6bcb;
+}
+
+/* Contact Section */
+.contact p {
+    font-size: 1.2rem;
+}
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #6a00f4;
+}
+
+.avatar-hero {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    box-shadow: 0 0 10px #ff6bcb;
+}
+
+.avatar-footer {
+    width: 80px;
+    margin-top: 20px;
+    box-shadow: 0 0 8px #6a00f4;
+}
